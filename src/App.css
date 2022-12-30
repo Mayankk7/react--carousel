@@ -1,38 +1,43 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:wght@400&display=swap');
+h1{
   text-align: center;
+  margin-bottom: 10vh;
+  font-family: 'Prosto One', cursive;
+  text-transform: uppercase;
+  color:white;
 }
 
-.App-logo {
-  height: 40vmin;
+.item{
+  min-height:20rem;
+  min-width:15rem;
+  padding:30px;
+  border-radius: 2rem;
+}
+
+.item img{
+  width:100%;
+  height:100%;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inner-carousel{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel{
+  cursor: grab;
+  width:80vw!important;
+  overflow:hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  box-shadow: rgba(172, 170, 170, 0.45) 0px 25px 20px -20px;
+  background-color: white;
+  max-height: fit-content;
+  text-align: center;
 }
+
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
